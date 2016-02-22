@@ -1252,6 +1252,7 @@ public class CameraLauncher extends CordovaPlugin implements MediaScannerConnect
         state.putBoolean("allowEdit", this.allowEdit);
         state.putBoolean("correctOrientation", this.correctOrientation);
         state.putBoolean("saveToPhotoAlbum", this.saveToPhotoAlbum);
+        state.putBoolean("localOnly", this.localOnly);
 
         if(this.croppedUri != null) {
             state.putString("croppedUri", this.croppedUri.toString());
@@ -1276,6 +1277,7 @@ public class CameraLauncher extends CordovaPlugin implements MediaScannerConnect
         this.allowEdit = state.getBoolean("allowEdit");
         this.correctOrientation = state.getBoolean("correctOrientation");
         this.saveToPhotoAlbum = state.getBoolean("saveToPhotoAlbum");
+        this.localOnly = state.getBoolean("localOnly");
 
         if(state.containsKey("croppedUri")) {
             this.croppedUri = Uri.parse(state.getString("croppedUri"));
