@@ -19,6 +19,11 @@
 #
 -->
 # Release Notes
+
+### 2.1.4 (Feb 23, 2016)
+* Changed repo name to be more distinct.
+* Fixed repo type in README
+
 ### 2.1.3 (Feb 23, 2016)
 * Minor README changes.
 * **Android** Added options for selecting local media only and an option to filter mimeTypes to image/* and video/*

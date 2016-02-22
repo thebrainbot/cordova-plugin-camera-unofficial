@@ -1,3 +1,7 @@
+# 2.1.4
+
+Fixing typo in README and changed repo name to be distrinct form TanaseButcaru's repo.
+
 # 2.1.1-unofficial-6
 
 Adding options for supporting local only media selection and filtering to image/* + video/*.

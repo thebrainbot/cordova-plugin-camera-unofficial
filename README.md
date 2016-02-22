@@ -24,8 +24,8 @@ Also, this releases are tested & contains the latest changes from upstream AND c
 
 
 You can install this plugin as any other cordova plugin, via CLI, using its name or git url:
-``cordova plugin add cordova-plugin-camera-unofficial---media-options``
-``cordova plugin add https://github.com/thebrainbot/cordova-plugin-camera-unofficial.git``
+    ``cordova plugin add cordova-plugin-camera-unofficial--media-options``
+    ``cordova plugin add https://github.com/thebrainbot/cordova-plugin-camera-unofficial--media-options.git``
 *You have to remove the original plugin, before installing this one.*
 
 
