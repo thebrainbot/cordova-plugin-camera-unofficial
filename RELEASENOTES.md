@@ -19,6 +19,8 @@
 #
 -->
 # Release Notes
+### 2.1.2 (Feb 23, 2016)
+* Minor README changes.
 
 ### 2.1.1 (Feb 22, 2016)
 * **Android** Added options for selecting local media only and an option to filter mimeTypes to image/* and video/*
