@@ -52,7 +52,9 @@ module.exports = {
     /** Allow selection of video only, ONLY RETURNS URL */
     VIDEO: 1,
     /** Allow selection from all media types */
-    ALLMEDIA : 2
+    ALLMEDIA : 2,
+    /** Allow selection of pictures and images only (Android only) */
+    IMAGEORVIDEO: 3
   },
   /**
    * @enum {number}
