@@ -7,9 +7,9 @@
 # to you under the Apache License, Version 2.0 (the
 # "License"); you may not use this file except in compliance
 # with the License.  You may obtain a copy of the License at
-# 
+#
 # http://www.apache.org/licenses/LICENSE-2.0
-# 
+#
 # Unless required by applicable law or agreed to in writing,
 # software distributed under the License is distributed on an
 # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -19,6 +19,10 @@
 #
 -->
 # Release Notes
+
+### 2.1.1 (Feb 22, 2016)
+* **Android** Added options for selecting local media only and an option to filter mimeTypes to image/* and video/*
+* **Android** Fixed various minor items in CameraLauncher.java.
 
 ### 2.1.0 (Jan 15, 2016)
 * added `.ratignore`
@@ -37,7 +41,7 @@
 * [CB-9910](https://issues.apache.org/jira/browse/CB-9910) Add permission request for some gallery requests for **Android**
 * [CB-7668](https://issues.apache.org/jira/browse/CB-7668) Adding a sterner warning for `allowedit` on **Android**
 * Fixing contribute link.
-* Using the `CordovaResourceApi` to fine paths of files in the background thread.  If the file doesn't exist, return the content `URI`. 
+* Using the `CordovaResourceApi` to fine paths of files in the background thread.  If the file doesn't exist, return the content `URI`.
 * Add engine tag for **Cordova-Android 5.0.x**
 * [CB-9583](https://issues.apache.org/jira/browse/CB-9583): Added support for **Marshmallow** permissions (**Android 6.0**)
 * Try to use `realpath` filename instead of default `modified.jpg`
@@ -47,7 +51,7 @@
 * [CB-9622](https://issues.apache.org/jira/browse/CB-9622) **WP8** Camera Option `destinationType:NATIVE_URI` is a `NO-OP`
 * [CB-9623](https://issues.apache.org/jira/browse/CB-9623) Fixes various issues when `encodingType` set to `png`
 * [CB-9591](https://issues.apache.org/jira/browse/CB-9591) Retaining aspect ratio when resizing
-* [CB-9443](https://issues.apache.org/jira/browse/CB-9443) Pick correct `maxResolution` 
+* [CB-9443](https://issues.apache.org/jira/browse/CB-9443) Pick correct `maxResolution`
 * [CB-9151](https://issues.apache.org/jira/browse/CB-9151) Trigger `captureAction` only once
 * [CB-9413](https://issues.apache.org/jira/browse/CB-9413) Close `RandomAccessStream` once copied
 * [CB-5661](https://issues.apache.org/jira/browse/CB-5661) Remove outdated **iOS** quirks about memory

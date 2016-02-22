@@ -1,3 +1,7 @@
+# 2.1.1-unofficial-6
+
+Adding options for supporting local only media selection and filtering to image/* + video/*.
+
 # 2.1.0-unofficial-4 / 5
 
 Bump version number for npmjs.

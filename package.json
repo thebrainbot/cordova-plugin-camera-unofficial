@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-camera-unofficial",
-  "version": "2.1.0-unofficial-5",
+  "name": "cordova-plugin-camera-unofficial--media-options",
+  "version": "2.1.1-unofficial--media-options",
   "description": "Cordova Camera Plugin",
   "cordova": {
     "id": "cordova-plugin-camera",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TanaseButcaru/cordova-plugin-camera-unofficial"
+    "url": "https://github.com/thebrainbot/cordova-plugin-camera-unofficial"
   },
   "keywords": [
     "cordova",
